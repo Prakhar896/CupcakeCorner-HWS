@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E27B69C029CCA0DA008BBD97 /* AddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27B69BF29CCA0DA008BBD97 /* AddressView.swift */; };
+		E27B69C229CCA211008BBD97 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27B69C129CCA211008BBD97 /* CheckoutView.swift */; };
 		E29A5FD529CB25BD00A30B97 /* CupcakeCornerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29A5FD429CB25BD00A30B97 /* CupcakeCornerApp.swift */; };
 		E29A5FD729CB25BD00A30B97 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29A5FD629CB25BD00A30B97 /* ContentView.swift */; };
 		E29A5FD929CB25C000A30B97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E29A5FD829CB25C000A30B97 /* Assets.xcassets */; };
@@ -37,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		E27B69BF29CCA0DA008BBD97 /* AddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressView.swift; sourceTree = "<group>"; };
+		E27B69C129CCA211008BBD97 /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
 		E29A5FD129CB25BD00A30B97 /* CupcakeCorner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CupcakeCorner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E29A5FD429CB25BD00A30B97 /* CupcakeCornerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CupcakeCornerApp.swift; sourceTree = "<group>"; };
 		E29A5FD629CB25BD00A30B97 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 				E29A5FD429CB25BD00A30B97 /* CupcakeCornerApp.swift */,
 				E29A5FD629CB25BD00A30B97 /* ContentView.swift */,
 				E27B69BF29CCA0DA008BBD97 /* AddressView.swift */,
+				E27B69C129CCA211008BBD97 /* CheckoutView.swift */,
 				E29A5FFE29CC112900A30B97 /* Models.swift */,
 				E29A5FD829CB25C000A30B97 /* Assets.xcassets */,
 				E29A5FDA29CB25C000A30B97 /* Preview Content */,
@@ -265,6 +268,7 @@
 			files = (
 				E29A5FFF29CC112900A30B97 /* Models.swift in Sources */,
 				E27B69C029CCA0DA008BBD97 /* AddressView.swift in Sources */,
+				E27B69C229CCA211008BBD97 /* CheckoutView.swift in Sources */,
 				E29A5FD729CB25BD00A30B97 /* ContentView.swift in Sources */,
 				E29A5FD529CB25BD00A30B97 /* CupcakeCornerApp.swift in Sources */,
 			);
