@@ -36,9 +36,11 @@ class Order: ObservableObject, Codable {
     var checkoutLinkIsDisabled: Bool {
         if name.isEmpty || streetAddress.isEmpty || city.isEmpty || zip.isEmpty {
             return true
-        } else {
-            return false
+        } else if name.trimmingCharacters(in: .whitespacesAndNewlines) == "" || streetAddress.trimmingCharacters(in: .whitespacesAndNewlines) == "" || city.trimmingCharacters(in: .whitespacesAndNewlines) == "" || zip.trimmingCharacters(in: .whitespacesAndNewlines) == "" {
+            return true
         }
+        
+        return false
     }
     
     var cost: Double {
